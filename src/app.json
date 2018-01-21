@@ -1,0 +1,38 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/login/login",
+    "pages/archive/archive",
+    "pages/about/about",
+    "pages/link/link"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#48C23D",
+    "navigationBarTitleText": "dvapp",
+    "navigationBarTextStyle":"light"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/home/home",
+      "iconPath": "images/icon_personage_up.png",
+      "selectedIconPath": "images/icon_personage_down.png",
+      "text": "首页"
+    }, {
+      "pagePath": "pages/archive/archive",
+      "iconPath": "images/icon_personage_up.png",
+      "selectedIconPath": "images/icon_personage_down.png",
+      "text": "归档"
+    },{
+      "pagePath": "pages/about/about",
+      "iconPath": "images/icon_personage_up.png",
+      "selectedIconPath": "images/icon_personage_down.png",
+      "text": "关于"
+    },{
+      "pagePath": "pages/link/link",
+      "iconPath": "images/icon_personage_up.png",
+      "selectedIconPath": "images/icon_personage_down.png",
+      "text": "友链"
+    }]
+  }
+}
